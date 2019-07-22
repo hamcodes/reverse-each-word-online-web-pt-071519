@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-   .each do |topping|
-    puts "I love #{topping} on my burgers!"
+   sentence.each do |sentence|
+    sentence.reverse
   end
 end
